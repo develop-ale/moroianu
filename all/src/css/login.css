@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baskervville+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baskervville+SC&family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baskervville+SC&family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Mingzat&display=swap');
+
+
+* {
+    border: 0;
+    padding: 0;
+}
+a{
+    font-family: "Inter", sans-serif;
+
+}
+
+body {
+    background-color: #e7d7c9;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 98vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 1000px;
+
+}
+
+.destra {
+    display: flex;
+    width: 500px;
+    height: 500px;
+    background-color: #EDE9E3;
+    border-radius: 0 30px 30px 0;
+}
+
+.sinistra {
+    display: flex;
+    width: 500px;
+    height: 500px;
+    background-color: #ffffff;
+    border-radius: 30px 0 0 30px;
+    justify-content: center;
+    align-items: center;
+}
+.login {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 500px;
+    height: 250px;
+}
+
+.input-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 150px;
+}
+
+.utente input {
+    padding: 5px;
+    border-color: black;
+    border: 1px solid #d0d1d2;
+    border-radius: 5px;
+    width: 190px;
+}
+.utente{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    width: 310px;
+}
+
+.password input {
+    padding: 5px;
+    border-color: black;
+    border: 1px solid #d0d1d2;
+    border-radius: 5px;
+    width: 190px;
+}
+.password{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 310px;
+}
+
+.submit{
+    display: flex;
+    justify-content: center;
+}
+.submit a {
+    padding: 5px;
+    width: 210px;
+    border-radius: 5px;
+    background-color: #d0d1d2;
+    font-family: "Inter", sans-serif;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+.title a{
+    font-family: "Inter", sans-serif;
+    text-decoration: none;
+    color: #d0d1d2;
+    font-size: xx-large;
+}
+.desk{
+    color: #d0d1d2;
+}
+.registrati{
+    text-decoration: none;
+    color: black;
+}
