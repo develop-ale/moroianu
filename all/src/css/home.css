@@ -43,7 +43,8 @@ nav {
     justify-content: center;
     align-items: center;
 }
-.title img{
+
+.title img {
     width: 150px;
 }
 
@@ -199,81 +200,99 @@ use {
     width: 1300px;
     justify-content: space-around;
 }
-.log1 img{
+
+.log1 img {
     width: 23px;
 }
-.log2 img{
+
+.log2 img {
     width: 27px;
 }
-.log3 img{
+
+.log3 img {
     width: 25px;
 
 }
-.log4 img{
+
+.log4 img {
     width: 35px;
 }
-.emoji{
-    display:flex;
+
+.emoji {
+    display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.sinistra-2{
+
+.sinistra-2 {
     display: flex;
-    justify-content:flex-start;
+    justify-content: flex-start;
     align-items: center;
     width: 300px;
 }
-.sinistra-2 a{
+
+.sinistra-2 a {
     text-decoration: none;
     color: black;
 }
+
 .img-ita img {
     width: 20px;
     height: 18px;
 }
-.img-ita{
+
+.img-ita {
     display: flex;
     justify-content: space-around;
     align-items: center;
     width: 50px;
 }
-.img-ita a{
+
+.img-ita a {
     display: flex;
     justify-content: space-around;
     align-items: center;
     width: 40px;
 }
-.freccetta-giu{
+
+.freccetta-giu {
     transform: rotate(-90deg);
 }
-.sin{
+
+.sin {
     width: 250px;
 }
-.cent{
+
+.cent {
     width: 250px;
 }
-.des{
+
+.des {
     width: 250px;
     display: flex;
-    flex-direction:row-reverse;
+    flex-direction: row-reverse;
 
 }
-.loghi--{
+
+.loghi-- {
     display: flex;
     width: 100px;
     justify-content: space-between;
     align-items: center;
 }
-.info-logo{
+
+.info-logo {
     width: 30px;
 }
-.log3{
+
+.log3 {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
 }
-.log-in{
+
+.log-in {
     display: flex;
     align-items: center;
     width: 30px;
