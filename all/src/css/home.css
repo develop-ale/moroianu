@@ -72,7 +72,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 300px;
+    width: 320px;
 }
 
 .search input {
@@ -201,6 +201,11 @@ use {
     justify-content: space-around;
 }
 
+.log-1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .log1 img {
     width: 23px;
 }
@@ -271,12 +276,13 @@ use {
     width: 250px;
     display: flex;
     flex-direction: row-reverse;
+    align-items: center;
 
 }
 
 .loghi-- {
     display: flex;
-    width: 100px;
+    width: 135px;
     justify-content: space-between;
     align-items: center;
 }
@@ -297,4 +303,17 @@ use {
     align-items: center;
     width: 30px;
     justify-content: space-between;
+}
+.whishlist-test{
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content:space-around;
+    text-align: center;
+    width: 95px;
+}
+.whishlist-test a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
